@@ -9,6 +9,19 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background: #eee;
+}
+
+.header {
+  margin-bottom: 750px;
+  text-align: center;
+}
+
+.header h2 {
+  text-decoration: underline;
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
 }
 
 section {
@@ -26,6 +39,7 @@ section .book {
   box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
   transform-style: preserve-3d;
   transition: 0.5s;
+  cursor: grabbing;
 }
 
 section .book:hover {
